@@ -17,7 +17,7 @@ function printDiamonds(rows){
     console.log(row);
 }   
 (function (){
-    // const userInput = prompt("Enter number of rows: ");
-    printDiamonds(4);
+    const userInput = prompt("Enter number of rows: ");
+    printDiamonds(userInput);
    
 })();
