@@ -1,9 +1,6 @@
 def printDiamond(rows):
-    for i in range(rows):
-        if i ==0:
-            print(""" """*(rows-1)+"*")
-        else:
-            print(""" """*(i-1)+"*"*i+"*"+"*"*i)
+    for i in range(1,rows+1):
+        print(" "*(rows-i)+"*"*((2*i)+1))
         
     
 def main():
