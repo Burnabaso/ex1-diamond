@@ -12,8 +12,10 @@ def printDiamond(rows):
         
     
 def main():
-    userInput = int(input("Enter number of rows: "))
-    printDiamond(userInput)
-    
+    try:
+        userInput = int(input("Enter number of rows: "))
+        printDiamond(userInput)
+    except:
+        print("Enter an integer")
 
 main()
